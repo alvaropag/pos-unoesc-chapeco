@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Aula HTML5 - CPF</title>
+	<meta charset="utf-8">
+
+	<script src="cpf.js"></script>
+	<script type="text/javascript">
+		function vCPF(input){
+			var mensagem = "";
+
+			//teste para mensagem em branco
+			if(input.value === ''){
+				mensagem = 'Por favor, informe este campo';
+			}
+			else if (validaCPF(input.value)){
+				mensagem = '';
+			}
+			else {
+				mensagem = 'CPF inválido!';
+			}
+			input.setCustomValidity(mensagem);
+
+			//input.setCustomValidity(validaCPF(input.value)?'':'CPF inválido!')
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<label for="cpf">CPF:
+			<input name="cpf" id="cpf" required oninput="vCPF(this)"/>
+		</label>
+		<input type="submit" value="Enviar"/>
+	</form>
+</body>
+</html>
