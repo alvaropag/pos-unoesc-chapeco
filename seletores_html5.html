@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Seletores HTML5</title>
+	<script type="text/javascript">
+		function selecionaItens(){
+			itens = document.getElementsByClassName("item");
+			console.log(itens);
+		}
+
+		function adicionaItem(valor){
+			document.getElementById("menu-list").innerHTML += "<li class='item'>" + valor + "</li>";
+		}
+	</script>
+</head>
+<body>
+	<nav>
+	<ul id="menu-list">
+		<li class="item">Item1</li>
+		<li class="item">Item2</li>
+		<li class="item">Item3</li>
+		<li class="item">Item4</li>
+	</ul>
+	</nav>
+	<button onclick="selecionaItens()">Seleciona</button>
+	<button onclick="adicionaItem('teste')">Adicionar</button>
+ </body>
+ </html>
