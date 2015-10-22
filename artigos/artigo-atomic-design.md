@@ -35,6 +35,21 @@ Por ser uma metodologia, o Atomic Design pode ser utilizado em qualquer desenvol
 
 Abaixo seguem imagens com exemplos de cada uma das categorias definidas pelo Atomic Design.
 
+#####Átomos
+![img_atomos](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/atomos.png)
+
+#####Moléculas
+![img_moleculas](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/moleculas.png)
+
+#####Organismos
+![img_organismos](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/organismos.png)
+
+#####Modelos (Templates)
+![img_templates](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/template.png)
+
+
+#####Páginas
+![img_paginas](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/page.png)
 
 
 #####Referências
