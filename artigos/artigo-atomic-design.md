@@ -38,19 +38,23 @@ Abaixo seguem imagens com exemplos de cada uma das categorias definidas pelo Ato
 #####Átomos
 ![img_atomos](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/atomos.png)
 
+<br/>
 #####Moléculas
 ![img_moleculas](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/moleculas.png)
 
+<br/>
 #####Organismos
 ![img_organismos](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/organismos.png)
 
+<br/>
 #####Modelos (Templates)
 ![img_templates](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/template.png)
 
-
+<br/>
 #####Páginas
 ![img_paginas](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/page.png)
 
+<br/>
 
 #####Referências
 [atomic_web_design_brad_frost](http://bradfrost.com/blog/post/atomic-web-design/)<br/>
