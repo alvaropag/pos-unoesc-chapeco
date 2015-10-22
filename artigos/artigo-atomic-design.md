@@ -57,7 +57,7 @@ Abaixo seguem imagens com exemplos de cada uma das categorias definidas pelo Ato
 <br/>
 
 #####Referências
-[atomic_web_design_brad_frost](http://bradfrost.com/blog/post/atomic-web-design/)<br/>
-[atomic_design_nomadev](http://nomadev.com.br/atomic-design-por-que-usar/)<br/>
-[atomic_design_nomadev2](http://nomadev.com.br/atomic-design-nomeclatura-suissa/)<br/>
-[atomic_design_tableless](http://tableless.com.br/o-que-e-design-atomic/)<br/>
+[http://bradfrost.com/blog/post/atomic-web-design/](http://bradfrost.com/blog/post/atomic-web-design/)<br/>
+[http://nomadev.com.br/atomic-design-por-que-usar/](http://nomadev.com.br/atomic-design-por-que-usar/)<br/>
+[http://nomadev.com.br/atomic-design-nomeclatura-suissa/](http://nomadev.com.br/atomic-design-nomeclatura-suissa/)<br/>
+[http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)<br/>
