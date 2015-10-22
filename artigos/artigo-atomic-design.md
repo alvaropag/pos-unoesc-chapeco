@@ -33,7 +33,7 @@ Por ser uma metodologia, o Atomic Design pode ser utilizado em qualquer desenvol
 
 #####Exemplos
 
-Abaixo seguem imagens com exemplos de cada uma das categorias definidas pelo Atomic Design.
+Abaixo seguem imagens com exemplos de cada uma das categorias definidas pelo Atomic Design. Todas as imagens foram retiradas do site http://patternlab.io/ desenvolvido pelo próprio Brad Frost.
 
 #####Átomos
 ![img_atomos](https://raw.githubusercontent.com/alvaropag/pos-unoesc-chapeco/master/artigos/images/atomos.png)
@@ -61,3 +61,4 @@ Abaixo seguem imagens com exemplos de cada uma das categorias definidas pelo Ato
 [http://nomadev.com.br/atomic-design-por-que-usar/](http://nomadev.com.br/atomic-design-por-que-usar/)<br/>
 [http://nomadev.com.br/atomic-design-nomeclatura-suissa/](http://nomadev.com.br/atomic-design-nomeclatura-suissa/)<br/>
 [http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)<br/>
+[http://patternlab.io/](http://patternlab.io/)
