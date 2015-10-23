@@ -235,7 +235,7 @@ De uma forma simplificada
 ```css
 @font-face {
     font-family: nome_da_familia;
-    src: url(local da fonte);
+    src: url(local_da_fonte);
 }
 
 seletor {
