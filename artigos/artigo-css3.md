@@ -5,12 +5,13 @@
 #### Acadêmico(a): Álvaro Gianni Pagliari
 ### Artigo de revisão de CSS3
 
+<br/>
 ##### Funcionalidade:  calc()
 ##### O que é?
 A função calc() permite que os desenvolvedores realizem cálculos para determinar valores nas propriedades do CSS. A função tem como parâmetro uma expressão que suporta números em formatos diversos (ex.: *%* com *em*) e as quatro operações básica da matemática (+, -, * e /). Também é permitido o uso de parênteses para estabelecer a ordem do cálculo.
 
 ##### Onde usar
-A função pode ser utilizada em qualquer lugar que aceite os tipos *<length>*, *<frequency>*, *<angle>*, *<time>*, *<number>* e *<integer>*.
+A função pode ser utilizada em qualquer lugar que aceite os tipos *length*, *frequency*, *angle*, *time*, *number* e *integer*.
 
 ##### Como usar
 ```css
@@ -39,6 +40,8 @@ div {
 [https://developer.mozilla.org/en-US/docs/Web/CSS/calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)<br/>
 [http://www.maujor.com/tutorial/css3-funcao-css-calc.php](http://www.maujor.com/tutorial/css3-funcao-css-calc.php)
 
+<br/>
+
 ##### Funcionalidade:  Seletores Avançados - :not 
 ##### O que é?
 O CSS3 definiu vários novos seletores para uso avançado, apresentamos aqui um deles. O seletor :not é definido como uma pseudo-classe de negação no formato *:not(X)* onde *X* é um seletor simples (exceto a própria pseudo-classe de negação). Ele é utilizado para selecionar um conjunto de classes e excluir outra, ou seja, utilizando a sintaxe da seção **Como Usar** abaixo o resultado da seleção seriam todas os elementos que contem *seletorA* exceto os que contenham o *seletorB*.
@@ -63,12 +66,14 @@ div:not(.footer) {
 [https://developer.mozilla.org/pt-BR/docs/Web/CSS/%3Anot](https://developer.mozilla.org/pt-BR/docs/Web/CSS/%3Anot)<br/>
 [http://codigofonte.uol.com.br/artigos/10-seletores-de-css-que-voce-deveria-usar](http://codigofonte.uol.com.br/artigos/10-seletores-de-css-que-voce-deveria-usar)<br/>
 
+<br/>
+
 ##### Funcionalidade:  Transições CSS
 ##### O que é?
-No CSS as trasições são utilizadas como uma forma de mudar propriedades do CSS, porém ao invés da mudança ser instantânea é possível fazer com que ela dure por um período de tempo (utilizando uma curva de aceleração). É possível controlar quais itens serão animados (*transition-property*), quando uma trasição vai ocorrer (*transition-delay*), por quanto tempo ela ocorrerá (*transition-duration*) e como ela ocorrerá (*transition-timing-function*, curva de aceleração). As transições são definidas por várias propriedades CSS conforme explicitado na seção **Como Usar**.
+No CSS as transições são utilizadas como uma forma de mudar propriedades do CSS, porém ao invés da mudança ser instantânea é possível fazer com que ela dure por um período de tempo (utilizando uma curva de aceleração). É possível controlar quais itens serão animados (*transition-property*), quando uma trasição vai ocorrer (*transition-delay*), por quanto tempo ela ocorrerá (*transition-duration*) e como ela ocorrerá (*transition-timing-function*, curva de aceleração). As transições são definidas por várias propriedades CSS conforme explicitado na seção **Como Usar**.
 
 ##### Onde usar
-Nem todas as propriedades CSS podem ser animadas, existe uma lista definida pela W3C de quais propriedades são animáveis [lista](http://www.w3.org/TR/css3-transitions/#animatable-css). As funções de curva de aceleração também
+Nem todas as propriedades CSS podem ser animadas, existe uma [lista](http://www.w3.org/TR/css3-transitions/#animatable-css) definida pela W3C de quais propriedades são animáveis. As funções de curva de aceleração também são uma lista pré-definida pela W3C.
 
 ##### Como usar
 ```css
@@ -83,9 +88,9 @@ seletor {
 ```css
 .menuButton {
   position: relative;
-  **transition-property: background-color, color;**
-  **transition-duration: 1s;**
-  **transition-timing-function: ease-out;**
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
   text-align: left;
   background-color: grey;
   left: 5px;
@@ -103,9 +108,9 @@ seletor {
 
 .menuButton:hover {
   position: relative;
-  **transition-property: background-color, color;**
-  **transition-duration: 1s;**
-  **transition-timing-function: ease-out;**
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
   background-color:white;
   color:black;
   box-shadow: 2px 2px 1px black;
@@ -116,9 +121,11 @@ seletor {
 [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)<br/>
 [http://tableless.com.br/transition-e-animation/](http://tableless.com.br/transition-e-animation/)
 
-##### Funcionalidade:  Gradientes - linear-gradient
+<br/>
+
+##### Funcionalidade:  Gradientes - linear-gradient()
 ##### O que é?
-Essa função CSS é utilizada para criar uma imagem que representa o gradiente linear definido pelas cores informadas na função. O resultado desta função é um objeto CSS do tipo <gradient>. Para utilizar esta função é necessário informar o ponto inicial e um ângulo de inclinação, bem como as cores inicial e final e as possíveis cores intermediárias.
+Essa função CSS é utilizada para criar uma imagem que representa o gradiente linear definido pelas cores informadas na função. O resultado desta função é um objeto CSS do tipo *gradient*. Para utilizar esta função é necessário informar o ponto inicial e um ângulo de inclinação, bem como as cores inicial e final e as possíveis cores intermediárias.
 
 ##### Onde usar
 Geralmente esta função é utilizada para definir o background do site, permitindo que não sejam utilizadas imagens pré-definidas para tal (o que deixa o site maior e mais difícil de se adaptar a diversos tamanhos).
@@ -128,8 +135,11 @@ A sintaxe desta função mudou diversas vezes, por isso segue as possíveis form
 
 ```css
 -webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*)
+
 -moz-linear-gradient([ [ [top | bottom] || [left | right] ],]? <color-stop>[, <color-stop>]+);
+
 linear-gradient( [ [ <angle> | [top | bottom] || [left | right] ],]? <color-stop>[, <color-stop>]+);
+
 /*Sintaxe final da função*/
 linear-gradient([ [ [ <angle> | to [top | bottom] || [left | right] ],]? <color-stop>[, <color-stop>]+);
 ```
@@ -152,6 +162,8 @@ div {
 [https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)<br/>
 [https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_gradients](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_gradients)<br/>
 [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)<br/>
+
+<br/>
 
 ##### Funcionalidade:  Layout Multi-Coluna
 ##### O que é?
@@ -196,6 +208,8 @@ seletor {
 [https://css-tricks.com/snippets/css/multiple-columns/](https://css-tricks.com/snippets/css/multiple-columns/)<br/>
 [http://www.htmlgoodies.com/primers/html/CSS3_Multi_column_Layouts.html#fbid=0zyW6ZBa15B](http://www.htmlgoodies.com/primers/html/CSS3_Multi_column_Layouts.html#fbid=0zyW6ZBa15B)
 
+<br/>
+
 ##### Funcionalidade:  Webfonts
 ##### O que é?
 As WebFonts permitem que os designers utilizem fontes em suas páginas web que não estejam instaladas no computador do usuário. É recomendado o uso desta tecnologia quando o designer quer manter o estilo da fonte e não utilizar uma imagem no lugar do texto, melhorando a busca no site e a acessibilidade. A regra utilizada pelo CSS para permitir o uso de WebFonts é @font-face, sendo vários formatos de fonte possíveis (de acordo com o browser utilizado), como: arquivos TTF/OTF, WOFF, WOFF2, SVG e EOT.
@@ -216,6 +230,18 @@ Pode ser utilizada em qualquer elemento que aceite definições de padrão de te
   [ font-style: <style>; ]
 }
 ```
+
+De uma forma simplificada
+```css
+@font-face {
+    font-family: nome_da_familia;
+    src: url(local da fonte);
+}
+
+seletor {
+    font-family: nome_da_familia;
+}
+```
 #####Exemplo de uso
 ```css
 @font-face {
@@ -230,6 +256,9 @@ h1, h2, h3 { font-family: 'Tagesschrift', 'Georgia', serif; }
 [http://www.w3schools.com/css/css3_fonts.asp](http://www.w3schools.com/css/css3_fonts.asp)<br/>
 [http://www.html5rocks.com/en/tutorials/webfonts/quick/?redirect_from_locale=pt](http://www.html5rocks.com/en/tutorials/webfonts/quick/?redirect_from_locale=pt)<br/>
 [https://developer.mozilla.org/pt-BR/docs/Web/CSS/@font-face](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@font-face)
+
+
+<br/>
 
 ##### Funcionalidade:  Media Queries
 ##### O que é?
@@ -261,6 +290,13 @@ media_feature: width | min-width | max-width
   | scan | grid
 ```
 
+De uma forma mais simplificada
+```css
+@media not|only mediatype and (media feature) {
+    CSS-Code;
+}
+```
+
 #####Exemplo de uso
 ```css
 /*Muda a cor do fundo se a largura da tela for maior que 480 pixels*/
@@ -274,6 +310,9 @@ media_feature: width | min-width | max-width
 [https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)<br/>
 [http://www.w3schools.com/cssref/css3_pr_mediaquery.asp](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp)<br/>
 [http://tableless.com.br/introducao-sobre-media-queries/](http://tableless.com.br/introducao-sobre-media-queries/)
+
+
+<br/>
 
 ##### Funcionalidade:  Backgrounds Múltiplos
 ##### O que é?
@@ -295,6 +334,15 @@ where
 <attachment> = scroll | fixed | local
 <box> = border-box | padding-box | content-box
 ```
+
+De uma forma simplificada
+```css
+seletor {
+    background-image: url(imagem1), url(imagem2), url(imagem3);
+    background-position: valor;
+    background-repeat: valor;
+}
+```
 #####Exemplo de uso
 ```css
 div {
@@ -314,6 +362,7 @@ url(gradiente-direita.png) top right repeat-Y;
 [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds)<br/>
 [https://developer.mozilla.org/en-US/docs/Web/CSS/background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
 
+<br/>
 
 ##### Funcionalidade:  Text Shadow
 ##### O que é?
@@ -340,6 +389,8 @@ h1 {
 [http://www.w3schools.com/cssref/css3_pr_text-shadow.asp](http://www.w3schools.com/cssref/css3_pr_text-shadow.asp)<br/>
 [https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
 
+<br/>
+
 ##### Funcionalidade:  Animações CSS
 ##### O que é?
 As animações em CSS permitem animar a maioria dos elementos HTML sem a utilização de Javascript ou Flash. As animações, se bem utilizadas, permitem tornar a experiência de usuário de um site melhor, permitindo chamar a atenção do usuário para determinadas áreas importantes ou simplesmente adicionar interesse a interface.
@@ -361,6 +412,29 @@ where
 <single-animation-direction> = normal | reverse | alternate | alternate-reverse
 <single-animation-fill-mode> = none | forwards | backwards | both
 <single-animation-play-state> = running | paused
+```
+
+De uma forma simplificada
+```css
+@keyframes nome_keyframe {
+    from{propriedades css}
+    to {propriedades css}
+}
+
+/* OU */
+
+@keyframes nome_keyframe {
+    0% {propriedades css}
+    50% {propriedades css}
+    100% {propriedades css}
+}
+
+/* ENTÃO */
+
+seletor {
+    animation-name: nome_keyframe;
+    animation-duration: tempo;
+}
 ```
 #####Exemplo de uso
 ```css
